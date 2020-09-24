@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito" );
+
+body{
+font-size: 16px;
+margin: 0;
+padding: 0;
+font-family:Nunito, Helvetica Neue,Arial, Helvetica, sans-serif;
+}
+
+header{
+font-size: 16px;
+top:0px;
+background-color:rgb(187, 162, 144);
+height: 70px;
+display: flex;
+flex-flow: row wrap;
+align-items: center; 
+justify-content: space-between;
+padding: 10px;
+position: sticky;
+}
+.header h1{
+    
+margin-left: 20px;
+}
+.navbar ul,.navbar li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+   
+}
+.navbar li{
+    display: inline;
+    margin-right: 20px;
+    
+
+}
+.navbar li:first-child{
+    margin-left: 20px;
+}
+.navbar a{
+    color:black;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color:blue;
+    cursor: pointer;
+}
+.login{
+    background-color: rgb(196, 202, 202);
+    color:black;
+    
+
+}
+.login:hover{
+    background-color:rgb(255, 208, 0);
+    background-color: cornsilk;
+}
+main{
+    display:flex;
+    align-items: center;
+  justify-content: center;
+  background-color: #6c9ebd;
+   color:rgb(182, 199, 212)9;
+    height: calc(100vh-60px);
+    font-size: 2rem;
+}
+.main-container img{
+    width:60%;
+}
+.main-container p{
+    width:40%;
+    padding:35px;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-item: center;
+  }
+  .course-section {
+    background-color: #f2f9ef;
+  }
+  .course-title {
+    padding: 10px;
+    color: #375034; 
+  }
+  .courses{
+      display: flex;
+  }
+  .course {
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px 2px #0000001f;
+  }
+  .course img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .course:hover {
+    transform: scale(1.05);
+    transform: translateY(10px);
+    transition: all 80ms ease;
+  }
+  footer{
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    color:darkgray;
+  }
+  .contact-us {
+    display: flex;
+  }
+  .contact-us input[type="email"]{
+    background-color: #FFFFFF;
+    border: 0;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .contact-us button {
+    background-color: green;
+    color: #FFF;
+    border: 1px solid green;
+    padding: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
